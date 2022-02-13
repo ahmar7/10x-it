@@ -1,0 +1,343 @@
+@import './common.scss';
+
+.cont-1{
+    display: grid;
+    grid-template-columns: 50% 50%;
+
+    padding-top: 12em;
+    
+    height: 100vh;
+}
+
+.container{
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+}
+
+.img1{
+    position: absolute;
+    bottom: -2%;
+    right: 0%;
+    top: 0;
+    img{
+        width: 900px;
+    }
+}
+.cont-2{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    column-gap: 5em;
+    margin-top: 200px;
+}
+.grid-2x3{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+    border-left: solid 2px $greyL;
+
+    margin-left: 2em;
+    margin-bottom: 10em;
+
+    padding-top: 3em;
+}
+.vcard-tech{
+    padding-left: 3em;
+    padding-bottom: 3em;
+    h4{
+        color: $black;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    p{
+        color: $grey;
+        margin:0;
+    }
+}
+
+.cont-3{
+    display: grid;
+    grid-template-columns: 1fr 1.5fr;
+
+    column-gap: 2em;
+}
+
+.flexbox{
+    display: flex;
+    justify-content: space-between;
+}
+
+.progress{
+    
+    position: relative;
+    overflow: hidden;
+    text-align: right;
+    font-size: 24px;
+    color: $black;
+    font-weight: 500;
+    margin: 0;
+    margin-top: auto;
+    margin-bottom: auto;
+    background-color: $white;
+    height: 24px;
+
+    border-radius: 2.5px;
+}
+.prog-blue{
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: $highlight;
+    height: 3vh;
+}
+.prog-black{
+    position: absolute;
+    height: 3vh;
+    background-color: $black;
+}
+.w-100{
+    width: 100%;
+}
+.w-95{
+    width: 95%;
+}
+.w-2{
+    width: 2%;
+}
+.card-2{
+    p{
+        color: $grey;
+    }
+
+    h3{
+        color: $black;
+        font-size: 24px;
+        font-weight: 500;
+        margin: 0;
+        margin-top: 2em;
+    }
+
+    h4{
+        font-size: 14px;
+    }
+}
+
+.col-high{
+    color: $highlight;
+}
+.col-black{
+    color:$black;
+}
+.col-grey{
+    color: $grey;
+}
+.col-greyL{
+    color: $greyL;
+}
+
+.h-card{
+    padding-top: 0;
+    border-left: solid 1px $greyL;
+    padding-left: 2em;
+}
+
+@media only screen and (min-width: 1440px) and (max-width: 1600px) {
+
+    .ml{
+        margin-left: 150px;
+    }
+    .mr{
+        margin-right: 150px;
+    }
+    .img1{
+
+        img{
+            width: 720px;
+        }
+    }
+
+    .sect2{
+       h1{
+           font-size: 60px;
+       }
+
+       h4{
+           font-size: 14px;
+       }
+
+       p{
+           font-size: 18px;
+       }
+
+       ul{
+           font-size: 18px;
+       }
+
+       span{
+           font-size: 18px;
+       }
+    }
+
+    .card-2{
+        p{
+            font-size: 12px;
+        }
+    
+        h3{
+            font-size: 18px;
+        }
+    
+        h4{
+            font-size: 12px;
+        }
+    }
+    .vcard-tech{
+        padding-left: 3em;
+        padding-bottom: 3em;
+        h4{
+            margin-top: 5px;
+            margin-bottom: 5px;
+            font-size: 14px;
+        }
+        p{
+            font-size: 10px;
+        }
+
+        div img{
+            width: 35px;
+        }
+    }
+}
+
+@media only screen and (min-width: 1280px) and (max-width: 1439px){
+    .ml{
+        margin-left: 125px;
+    }
+    .mr{
+        margin-right: 125px;
+    }
+    .img1{
+
+        img{
+            width: 720px;
+        }
+    }
+    .sect2{
+        h1{
+            font-size: 50px;
+        }
+
+        h4{
+            font-size: 14px;
+        }
+ 
+        p{
+            font-size: 15px;
+        }
+ 
+        ul{
+            font-size: 15px;
+        }
+ 
+        span{
+            font-size: 16px;
+        }
+     }
+     
+     .card-2{
+        p{
+            font-size: 12px;
+        }
+    
+        h3{
+            font-size: 18px;
+        }
+    
+        h4{
+            font-size: 12px;
+        }
+    }
+    .vcard-tech{
+        padding-left: 3em;
+        padding-bottom: 3em;
+        h4{
+            margin-top: 5px;
+            margin-bottom: 5px;
+            font-size: 14px;
+        }
+        p{
+            font-size: 10px;
+        }
+
+        div img{
+            width: 35px;
+        }
+    }
+
+}
+
+@media only screen and (min-width: 1024px) and (max-width: 1279px){
+    .ml{
+        margin-left: 125px;
+    }
+    .mr{
+        margin-right: 125px;
+    }
+    .img1{
+
+        img{
+            width: 720px;
+        }
+    }
+    .sect2{
+        h1{
+            font-size: 50px;
+        }
+
+        h4{
+            font-size: 14px;
+        }
+ 
+        p{
+            font-size: 15px;
+        }
+ 
+        ul{
+            font-size: 15px;
+        }
+ 
+        span{
+            font-size: 16px;
+        }
+     }
+     
+     .card-2{
+        p{
+            font-size: 12px;
+        }
+    
+        h3{
+            font-size: 18px;
+        }
+    
+        h4{
+            font-size: 12px;
+        }
+    }
+    .vcard-tech{
+        padding-left: 3em;
+        padding-bottom: 3em;
+        h4{
+            margin-top: 5px;
+            margin-bottom: 5px;
+            font-size: 14px;
+        }
+        p{
+            font-size: 10px;
+        }
+
+        div img{
+            width: 35px;
+        }
+    }
+}

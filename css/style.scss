@@ -1,0 +1,963 @@
+@import './common.scss';
+
+.img1{
+    z-index: 1;
+    position: absolute;
+    bottom: -5%;
+    left: -50%;
+}
+
+.sect3{
+    text-align: left;
+    h1{
+        margin: 0;
+        font-size: 78px;
+        color: $white;
+    }
+    p{
+        font-size: 22px;
+        color: $greyL;
+    }
+
+    h4{
+        color: $greyL;
+        margin: 0;
+    }
+
+    ul{
+        font-size: 22px;
+        color: $greyL;
+        font-weight: 500;
+    }
+}
+
+
+.btn-bl{
+    background-color: $dark;
+    width: fit-content;
+    padding:1.5em;
+    padding-left: 2em;
+    padding-right: 2em;
+    display: flex;
+    justify-content: center;
+    color: $white;
+
+    border-radius: 10px;
+
+    p{
+        color: $white;
+        margin: 0;
+        font-size: 20px;
+    }
+    i{
+        font-size: 20px;
+        margin-left: 1em;
+    }
+
+    transition: 0.4s;
+    cursor: pointer;
+
+    &:hover{
+        background-color: $white;
+        color: $highlight;
+        box-shadow: 5px 5px 20px rgba($color: hsl(244, 100%, 50%), $alpha: 0.1);
+
+        p{
+            color: $highlight;
+        }
+        transform: scale(1.1);
+    }
+}
+
+.partners{
+    color: $bg;
+    background-color: $highlight;
+    display: flex;
+    justify-content: center;
+
+    p{
+        margin-top: auto;
+        margin-bottom: auto;
+        font-size: 30px;
+    }
+
+    div{
+        margin-left: 6em;
+        margin-right: 6em;
+        margin-top: 2em;
+        margin-bottom: 1em;
+    }
+    div img{
+        width: 200px;
+    }
+}
+
+.grid-2{
+    margin-left: 200px;
+    margin-right: 200px;
+
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.cont-2{
+    padding-top: 220px;
+    padding-bottom: 220px;
+    position: relative;
+    z-index: 1;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.img-ball2{
+    position: relative;
+     img{
+         width: 500px;
+        }
+
+    // video{
+    //     width: 600px;
+    // }
+}
+
+
+.overflow{
+    overflow: hidden;
+}
+.grid-2-h{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+}
+.cont-3{
+    background-color: $white;
+    padding-top: 220px;
+    padding-bottom: 450px;
+    position: relative;
+    overflow: hidden;
+}
+.grid-2x3{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-left: 3em;
+}
+
+.ml-2{
+    margin-left: 2em;
+}
+.flex-vp{
+    display: flex;
+    flex-direction: column;
+}
+
+.w-sect2{
+    width: 80%;
+}
+
+.cont-4{
+    background-color: $highlight;
+}
+.grid-h2{
+    padding-top: 220px;
+    padding-bottom: 220px;
+
+    display: grid;
+    grid-template-columns: 1.2fr 1fr;
+}
+
+.subs{
+    background-color: $white;
+    padding-top: 150px;
+    padding-bottom: 350px;
+}
+.sub-H{
+    text-align: center;
+    h4{
+        color: $grey;
+
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+
+    h1{
+        color: $black;
+
+        margin-top: 0;
+        margin-bottom: 0;
+
+        font-size: 76px;
+    }
+}
+
+.sub-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-right: 380px;
+    margin-left: 380px;
+    margin-top: 100px;
+}
+
+.sub-card{
+
+    background-color: $bg;
+    padding: 2em;
+    text-align: center;
+    color: $grey;
+
+    h2{
+        font-size: 45px;
+        color: $black;
+    }
+
+    h3{
+        font-weight: 500;
+        color: $black;
+        font-size: 22px;
+    }
+
+    ul{
+        padding: 0;
+        li{
+            list-style: none;
+            text-align: left;
+
+            border-top: solid 1px #BFBFCB;
+            padding-top: 1.5em;
+            padding-bottom: 1.5em;
+
+            i{
+                margin-right: 1em;
+            }
+        }
+    }
+}
+.mt-2{
+        margin-top: 2em;
+        margin-bottom: 2em;
+}
+
+.btn-sub{
+
+    position: relative;
+    top: 70px;
+
+    background-color: $white;
+    width: fit-content;
+    padding:1.2em;
+    padding-left: 2em;
+    padding-right: 2em;
+    display: flex;
+    justify-content: center;
+    color: $highlight;
+
+    margin-right: auto;
+    margin-left: auto;
+
+    border-radius: 10px;
+    border: solid 3px $highlight;
+
+    font-weight: 600;
+
+    p{
+        color: $highlight;
+        margin: 0;
+        font-size: 18px;
+    }
+    i{
+        font-size: 20px;
+        margin-left: 1em;
+    }
+
+    transition: 0.4s;
+    cursor: pointer;
+
+    &:hover{
+        transform: scale(1.1);
+    }
+}
+.bg-spec{
+    background-color: #DEDEDE;
+}
+.btn-spec{
+    background-color: $highlight;
+    color: $white;
+    p{
+        color: $white;
+    }
+
+    transition: 0.4s;
+    cursor: pointer;
+
+    &:hover{
+        transform: scale(1.1);
+    }
+}
+.news{
+    background-color: $white;
+    padding-left: 175px;
+    padding-top: 200px;
+    padding-bottom: 150px;
+}
+.flex-news{
+    display: flex;
+}
+.news-grid{
+    display: grid;
+    grid-template-columns: 0.75fr 3fr;
+}
+.news-H{
+    h1{
+        color: $black;
+        font-size: 68px;
+        margin: 0;
+    }
+    h3{
+        color: $highlight;
+        font-weight: 500;
+        margin: 0;
+    }
+}
+.news-card{
+
+    padding: 1em;
+    border-left: solid 1px $greyL;
+
+    h3{
+        color: $highlight;
+        font-weight: 500;
+        font-size: 16px;
+        margin: 0;
+        margin-bottom: 1em;
+    }
+    h2{
+        color: $black;
+        font-size: 26px;
+        margin: 0;
+    }
+    p{
+        color: $grey;
+        
+    }
+}
+.news-grid2{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.news-btn{
+    text-align: center;
+    background-color: $highlight;
+    color: $white;
+    border-radius: 10px;
+
+    padding: 1em;
+    padding-left: 2em;
+    padding-right: 2em;
+    
+    margin-top: 2em;
+
+    width: 5%;
+
+    transition: 0.4s;
+    cursor: pointer;
+
+    &:hover{
+        background-color: $white;
+        color: $highlight;
+        box-shadow: 5px 5px 20px rgba($color: hsl(244, 100%, 50%), $alpha: 0.1);
+
+        p{
+            color: $highlight;
+        }
+        transform: scale(1.1);
+    }
+}
+.border-left{
+    border-left: solid 2px $greyL;
+}
+
+.vcard{
+    padding-left: 3em;
+    padding-bottom: 3em;
+    h4{
+        color: $black;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    p{
+        color: $grey;
+        margin:0;
+    }
+}
+
+
+.hover-close{
+    &:hover{
+        transition: 0.2s;
+        transform: scale(1.2);
+        color: $highlight;
+    }
+}
+.border-top-thick{
+    border-top: solid 5px $highlight;
+}
+
+.temp-div{
+    background-color: $white;
+    width: 100%;
+    height: 10.5vh;
+}
+
+.tags{
+    position: absolute;
+    color: $grey;
+    background-color: $white;
+    border-radius: 25px;
+    display: flex;
+    padding: 0.1em;
+    height: fit-content;
+    width: 100%;
+    p{
+        margin: 0;
+        margin-top: 6px;
+        text-align: center;
+        font-weight: 500;
+        font-size: 14px;
+
+        width: 100%;
+    }
+
+    div img{
+        width: 20px;
+        margin-top: 0.2em;
+        margin-left: 0.2em;
+    }
+}
+
+.pos1{
+    width: 250px;
+    top: 20%;
+    left: 20%;
+}
+.pos2{
+
+    width: 350px;
+    top: 50%;
+    left: 8%;
+}
+.pos3{
+    width: 200px;
+    bottom: 15%;
+    left: 20%;
+}
+
+.blue-dna-rot{
+    position: absolute;
+    left: -30%;
+    bottom: -25%;
+    transform-origin: left bottom;
+    transform: rotate(20deg) scale(0.7);
+    
+}
+
+.z-2{
+    position: relative;
+    z-index: 1;
+}
+
+@media only screen and (min-width: 1440px) and (max-width: 1600px) {
+
+    .ml{
+        margin-left: 150px;
+    }
+    .mr{
+        margin-right: 150px;
+    }
+    .cont-2{
+        padding-top: 175px;
+        grid-template-columns: 1.5fr 1fr;
+    }
+
+    .cont-3{
+        padding-bottom: 200px;
+    }
+    .blue-dna-rot{
+        bottom: -10%;
+        transform: rotate(20deg) scale(0.5);
+    }
+
+    .pos1{
+        left: 20%;
+    }
+    .pos2{
+        left: 2%;
+    }
+    .pos3{
+        left: 18%;
+    }
+
+    .img1{
+        bottom: -1%;
+        left: -50%;
+        img{
+            width: 1200px;
+        }
+    }
+
+    .sect2{
+       h1{
+           font-size: 60px;
+       }
+
+       p{
+           font-size: 18px;
+       }
+
+       ul{
+           font-size: 18px;
+       }
+
+       span{
+           font-size: 18px;
+       }
+    }
+
+    .partners{
+    
+        p{
+            font-size: 25px;
+        }
+    
+        div{
+            margin-left: 5em;
+            margin-right: 5em;
+            margin-top: 2em;
+            margin-bottom: 1em;
+        }
+        div img{
+            width: 150px;
+        }
+
+    }
+
+    .sect3{
+        h1{
+            font-size: 60px;
+        }
+ 
+        p{
+            font-size: 18px;
+        }
+ 
+        ul{
+            font-size: 18px;
+        }
+ 
+        span{
+            font-size: 18px;
+        }
+    }
+
+    .img2{
+        img{
+            width: 600px;
+        }
+    }
+
+    .sub-grid{
+        
+        margin-right: 150px;
+        margin-left: 150px;
+        
+    }
+}
+
+@media only screen and (min-width: 1280px) and (max-width: 1439px) {
+
+    .ml{
+        margin-left: 125px;
+    }
+    .mr{
+        margin-right: 125px;
+    }
+
+    .pos1,.pos2,.pos3 {
+        transform: scale(0.8);
+    }
+    .cont-2{
+        padding-top: 175px;
+        grid-template-columns: 1.5fr 1fr;
+    }
+    .cont-3{
+        padding-bottom: 200px;
+    }
+    .blue-dna-rot{
+       
+        transform: rotate(20deg) scale(0.4);
+    }
+
+    .pos1{
+        left: 12%;
+    }
+    .pos2{
+        left: -1%;
+    }
+    .pos3{
+        left: 13%;
+    }
+
+    .img1{
+        bottom: -1%;
+        left: -55%;
+        img{
+            width: 1100px;
+        }
+    }
+
+    .sect2{
+       h1{
+           font-size: 50px;
+       }
+
+       p{
+           font-size: 15px;
+       }
+
+       ul{
+           font-size: 15px;
+       }
+
+       span{
+           font-size: 16px;
+       }
+    }
+
+    .partners{
+    
+        p{
+            font-size: 22px;
+        }
+    
+        div{
+            margin-left: 4em;
+            margin-right: 4em;
+            margin-top: 2em;
+            margin-bottom: 1em;
+        }
+        div img{
+            width: 125px;
+        }
+
+    }
+
+    .img-ball2{
+        img{
+            width: 400px;
+        }
+    }
+
+    .sect3{
+        h1{
+            font-size: 50px;
+        }
+ 
+        p{
+            font-size: 15px;
+        }
+ 
+        ul{
+            font-size: 15px;
+        }
+ 
+        span{
+            font-size: 16px;
+        }
+    }
+
+    .vcard{
+        padding-left: 3em;
+        padding-bottom: 3em;
+        h4{
+            font-size: 14px;
+        }
+        p{
+            font-size: 12px;
+        }
+
+        div img{
+            width: 35px;
+        }
+    }
+
+    .img2{
+        img{
+            width: 500px;
+        }
+    }
+
+    .sub-H{
+        h4{
+            font-size: 18px;
+        }
+    
+        h1{
+            font-size: 56px;
+        }
+    }
+
+    .sub-grid{
+        
+        margin-right: 125px;
+        margin-left: 125px;
+        
+    }
+
+    .sub-card{
+    
+        h2{
+            font-size: 32px;
+        }
+    
+        h3{
+            font-size: 18px;
+        }
+
+        p{
+            font-size: 16px;
+        }
+        i{
+            font-size: 16px;
+        }
+    }
+
+    .news-H{
+        h1{
+        
+            font-size: 55px;  
+        }
+        h3{
+            font-size: 18px;
+        }
+    }
+
+    .news-card{
+    
+        h3{
+            font-size: 12px;
+        }
+        h2{
+            font-size: 18px;
+        }
+        p{
+            font-size: 14px;
+        }
+    }
+}
+
+@media only screen and (min-width: 1024px) and (max-width: 1279px){
+    .ml{
+        margin-left: 100px;
+    }
+    .mr{
+        margin-right: 100px;
+    }
+    .cont-2{
+        padding-top: 175px;
+        grid-template-columns: 1.5fr 1fr;
+    }
+    .cont-3{
+        padding-bottom: 100px;
+    }
+    .blue-dna-rot{
+        transform: rotate(20deg) scale(0.42);
+    }
+
+    .pos1{
+        left: 18%;
+    }
+    .pos2{
+        left: 4%;
+    }
+    .pos3{
+        left: 20%;
+    }
+
+    .img1{
+        bottom: -1%;
+        left: -65%;
+        img{
+            width: 1000px;
+        }
+    }
+
+    .sect2{
+        h1{
+            font-size: 40px;
+        }
+ 
+        p{
+            font-size: 12px;
+        }
+ 
+        ul{
+            font-size: 12px;
+        }
+ 
+        span{
+            font-size: 12px;
+        }
+    }
+
+    .partners{
+    
+        p{
+            font-size: 22px;
+        }
+    
+        div{
+            margin-left: 4em;
+            margin-right: 4em;
+            margin-top: 2em;
+            margin-bottom: 1em;
+        }
+        div img{
+            width: 125px;
+        }
+
+    }
+
+    .img-ball2{
+        img{
+            width: 300px;
+        }
+    }
+
+    .pos1,.pos2,.pos3{
+        transform-origin: left;
+        transform: scale(0.6);
+    }
+
+    .sect3{
+        h1{
+            font-size: 40px;
+        }
+ 
+        p{
+            font-size: 12px;
+        }
+ 
+        ul{
+            font-size: 12px;
+        }
+ 
+        span{
+            font-size: 12px;
+        }
+    }
+
+    .vcard{
+        padding-left: 3em;
+        padding-bottom: 3em;
+        h4{
+            font-size: 14px;
+        }
+        p{
+            font-size: 12px;
+        }
+
+        div img{
+            width: 35px;
+        }
+    }
+
+    .img2{
+        img{
+            width: 400px;
+        }
+    }
+
+    .sub-H{
+        h4{
+            font-size: 16px;
+        }
+    
+        h1{
+            font-size: 42px;
+        }
+    }
+
+    .sub-grid{
+        
+        margin-right: 125px;
+        margin-left: 125px;
+        
+    }
+
+    .sub-card{
+    
+        h2{
+            font-size: 28px;
+        }
+    
+        h3{
+            font-size: 16px;
+        }
+
+        p{
+            font-size: 12px;
+        }
+        i{
+            font-size: 12px;
+        }
+        li{
+            font-size: 12px;
+        }
+    }
+
+    .news-H{
+        h1{
+    
+            font-size: 42px;  
+        }
+        h3{
+            font-size: 16px;
+        }
+    }
+
+    .news-card{
+    
+        h3{
+            font-size: 12px;
+        }
+        h2{
+            font-size: 18px;
+        }
+        p{
+            font-size: 12px;
+        }
+    }
+
+    .grid-h2{
+        padding-top: 150px;
+        padding-bottom: 150px;
+    }
+
+    .mt-3{
+        margin-top: 2em;
+    }
+    .btn{
+        border-radius: 8px;
+        padding: 1em;
+        padding-left: 1.5em;
+        padding-right: 1.5em;
+        
+        i{
+            width: 12px;
+        }
+    }
+
+    .news-btn{
+        border-radius: 10px;
+    
+        padding: 1em;
+        padding-left: 2em;
+        padding-right: 2em;
+        width: 6%;
+    }
+}

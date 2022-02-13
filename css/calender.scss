@@ -1,0 +1,20 @@
+@import './common.scss';
+
+.calender{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    height: fit-content;
+
+    padding-top: 5%;
+    padding-bottom: 5%;
+    background-color: #FBFCFD;
+
+    iframe{
+        
+        overflow: hidden;
+        width: 100%;
+        height: 70vh;
+    }
+}
